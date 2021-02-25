@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your first name"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+       />
+
+    <EditText
+        android:id="@+id/et_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/main_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your full name is"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/main_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="share"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style"
+
+        />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ask google"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style"
+
+        />
+
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style"
+
+        />
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style"
+
+        />
+
+    <Button
+        android:id="@+id/openapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Whatsapp"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style"
+
+        />
+    <Button
+        android:id="@+id/open_my_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open My app"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style"
+
+        />
+    <Button
+        android:id="@+id/send_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Broadcast"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style"
+
+        />
+
+</LinearLayout>
